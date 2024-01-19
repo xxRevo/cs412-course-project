@@ -8,7 +8,7 @@ The detailed information on all functions used in the project are available as c
 
 **METHODOLOGY**
 
-I've used the neural network implementation from our previous assignment in this project however naturally a lot of changes had to be implemented. There were several issues and problems I had to overcome during the implementation of the project; I've generalized the scores based on the range of the most frequent scores distribution since it would make it easier for the model to bag individual scores into 5 categories and train and predict using that instead of with the whole range of 0-100 which could easily overfit. Overall my approach was to achieve a model that did not overfit and to achieve this, I tried to generalize the parameters, outputs and adjustedhyperparameters accordingly to achieve the desired effect.
+I've used the neural network implementation from our previous assignment in this project however naturally a lot of changes had to be implemented. There were several issues and problems I had to overcome during the implementation of the project; I've generalized the scores based on the range of the most frequent scores distribution since it would make it easier for the model to bag individual scores into 5 categories and train and predict using that instead of with the whole range of 0-100 which could easily overfit. Overall my approach was to achieve a model that did not overfit and to achieve this, I tried to generalize the parameters, outputs and adjustedhyperparameters accordingly to achieve the desired effect. I've also avoided using question based guessing for the same reason. 
 
 
 **RESULTS**
